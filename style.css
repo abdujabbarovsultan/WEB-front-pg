@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: grey;
+  gap: 10px;  
+  height: 100vh;
+  display: flex;
+  padding: 20px;
+  
+
+}
+.container-left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 2;
+}
+.left-top{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+}
+.left-top > div{
+  flex-grow: 1;
+background-image: linear-gradient(to right, pink ,hsl(325, 79%, 31%));  
+}
+.left-bottom{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 10px;
+}
+.left-bottom > div{
+  background-image: linear-gradient(to top, pink ,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
+
+.container-center{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 2;
+}
+.center-top{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  gap: 10px;
+}
+.center-top .box-1{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  gap: 10px;
+}
+.box-1 > div {
+  background-image: linear-gradient(to top, pink ,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
+.center-top .box{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 10px;
+}
+.center-top .box > div{
+  background-image: linear-gradient(to top, pink 10%,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
+
+.container-center-1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+.center-1-top{
+  background-image: linear-gradient(to top, pink ,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
+.center-1-center{
+  background-image: linear-gradient(to top, pink ,hsl(325, 79%, 31%));
+  flex-grow: 2;
+}
+.center-1-bottom{
+  background-image: linear-gradient(to top, pink 20%,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
+
+.container-center-2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1; 
+}
+.container-center-2 > div {
+  background-image: linear-gradient(to top, pink ,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
+.container-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;   
+}
+.container-right > div{
+  background-image: linear-gradient(to right, pink ,hsl(325, 79%, 31%));
+  flex-grow: 1;
+}
